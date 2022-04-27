@@ -1,0 +1,169 @@
+{
+    "id": "64d375e7-fae4-4121-9d7e-23c0f85e9d96",
+    "name": "Cantina.Univs",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+      {
+        "action": "",
+        "affectedContexts": [],
+        "parameters": [],
+        "defaultResponsePlatforms": {},
+        "messages": [
+          {
+            "type": "message",
+            "condition": "",
+            "speech": [
+              "Olá, sobre a cantina é necessário você ir presencialmente visitar para saber os valores e itens que estão a venda. O local é no pátio 02 bloco D. Esperamos por você. Horário: segunda à sexta 07:00 às 23:00."
+            ]
+          }
+        ],
+        "resetContexts": false
+      }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Onde posso comer algo?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "201c6f4d-2ca4-4085-9eda-cc985f7519a6",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Quais os valores da ",
+            "userDefined": false
+          },
+          {
+            "text": "cantina",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": "?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "40ffd9b0-3835-49aa-9523-b50ad755ed21",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Tem ",
+            "userDefined": false
+          },
+          {
+            "text": "lanchonete",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": "?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "7a895052-0eb7-4b1a-80d4-802d4bf0c02f",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Há",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": " onde comer na ",
+            "userDefined": false
+          },
+          {
+            "text": "faculdade",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": "?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "a775254c-74b6-424a-b5c3-2df24ef0383c",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Tem ",
+            "userDefined": false
+          },
+          {
+            "text": "cantina",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": "?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "565960c4-350c-404f-8bb4-57fd9fc11c2e",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Onde fica ",
+            "userDefined": false
+          },
+          {
+            "text": "a cantina",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": "?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "2fa885b6-84dd-4cbf-9334-03b7b91c0f70",
+        "updated": null
+      }
+    ],
+    "webhookForSlotFilling": false,
+    "webhookUsed": false
+  }

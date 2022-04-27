@@ -1,0 +1,162 @@
+{
+    "id": "d7a6b108-af6b-483f-90eb-777210c627dd",
+    "name": "AgendamentoVisita_Lab",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [
+      "agendarVisita_lab"
+    ],
+    "contexts": [
+      "agendarVisita_lab"
+    ],
+    "endInteraction": true,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+      {
+        "action": "",
+        "affectedContexts": [
+          {
+            "name": "agendarVisita_lab",
+            "lifespan": 5
+          }
+        ],
+        "parameters": [
+          {
+            "noInputPromptMessages": [],
+            "noMatchPromptMessages": [],
+            "promptMessages": [],
+            "defaultValue": "",
+            "name": "nome_curso",
+            "dataType": "@Cursos_Univs",
+            "isList": false,
+            "required": true,
+            "prompts": [
+              "Me informe seu curso para continuarmos:"
+            ],
+            "value": "",
+            "outputDialogContexts": []
+          },
+          {
+            "noInputPromptMessages": [],
+            "noMatchPromptMessages": [],
+            "promptMessages": [],
+            "defaultValue": "",
+            "name": "aluno_lab",
+            "dataType": "@Laboratorios_Univs",
+            "isList": false,
+            "required": true,
+            "prompts": [
+              "Me informe qual o laboratório:"
+            ],
+            "value": "",
+            "outputDialogContexts": []
+          },
+          {
+            "noInputPromptMessages": [],
+            "noMatchPromptMessages": [],
+            "promptMessages": [],
+            "defaultValue": "",
+            "name": "data_agendamento",
+            "dataType": "@sys.date-time",
+            "isList": false,
+            "required": true,
+            "prompts": [
+              "Me diga qual a data que você deseja agendar:"
+            ],
+            "value": "",
+            "outputDialogContexts": []
+          }
+        ],
+        "defaultResponsePlatforms": {},
+        "messages": [
+          {
+            "type": "message",
+            "condition": "",
+            "speech": [
+              "Oi tudo bem, para você do curso $nome_curso e quer usar o de laboratório $aluno_lab seu agendamento está confirmado para $data_agendamento."
+            ]
+          }
+        ],
+        "resetContexts": false
+      }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "agendar visita",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "05269892-68f2-4c72-9df4-9d4103f627ea",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "agendamento visita ",
+            "userDefined": false
+          },
+          {
+            "text": "ao lab",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "a121d744-0077-41b8-8904-991a72005b24",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Agendamento visita ao ",
+            "userDefined": false
+          },
+          {
+            "text": "laboratório",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "7b5e6e54-37ce-45ba-bedb-8080488afe66",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Agendar visita ao ",
+            "userDefined": false
+          },
+          {
+            "text": "laboratório",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "0f8bec3b-281d-4798-b7a1-30a52f8de728",
+        "updated": null
+      }
+    ],
+    "webhookForSlotFilling": false,
+    "webhookUsed": true
+  }

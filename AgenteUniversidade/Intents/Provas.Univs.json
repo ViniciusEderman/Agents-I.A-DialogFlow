@@ -1,0 +1,230 @@
+{
+    "id": "09a7ab9b-2b14-478d-9c7d-944670bd16e7",
+    "name": "Provas.Univs",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+      {
+        "action": "",
+        "affectedContexts": [
+          {
+            "name": "ProvasUnivs-followup",
+            "lifespan": 2
+          }
+        ],
+        "parameters": [
+          {
+            "noInputPromptMessages": [],
+            "noMatchPromptMessages": [],
+            "promptMessages": [],
+            "defaultValue": "",
+            "name": "location",
+            "dataType": "@sys.location",
+            "isList": false,
+            "required": false,
+            "prompts": [],
+            "value": "$location",
+            "outputDialogContexts": []
+          }
+        ],
+        "defaultResponsePlatforms": {},
+        "messages": [
+          {
+            "type": "message",
+            "condition": "",
+            "speech": [
+              "Não se preocupe. Sei que não é fácil o período de provas, porém se mantenha estudando e calmo. Sobre as avaliações na universidade são dadas das seguintes formas: AV1-primeira prova + AV2-segunda prova + AV3-terceira prova e dividir por 03. Caso sua nota seja média seja abaixo de 7,00. Você poderá fazer a AVS recuperando a sua média geral. A AVS contém os conteúdos das três provas.\nFicou claro a explicação?"
+            ]
+          }
+        ],
+        "resetContexts": false
+      }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Provas",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "29bd65cf-a282-42c3-b703-7fead5d27e6d",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Provas da ",
+            "userDefined": false
+          },
+          {
+            "text": "faculdade",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "aa075f22-8f8f-4a6b-8e27-76cf9b88028e",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Como funciona as provas da ",
+            "userDefined": false
+          },
+          {
+            "text": "faculdade",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": "?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "30461587-bef5-42a1-bf0e-89ca88bdebc6",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Como são as provas?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "e53159db-3971-4791-88db-6a613769d59e",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Sobre as avaliações",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "088f484c-b59f-47b7-aac1-df5a3dd6f114",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Como funciona as avaliações?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "492daaec-ebf2-43dc-855c-83a7388c40dd",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Como eu faço ",
+            "userDefined": false
+          },
+          {
+            "text": "para",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": " realizar ",
+            "userDefined": false
+          },
+          {
+            "text": "uma",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": " prova?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "8c7a9fbf-d8d6-414e-8569-f97b5bc47f7b",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "como eu faço prova?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "b6662160-cf67-4ab3-b410-9c5e1a90a547",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Como são dadas as notas?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "468c533b-de4b-4213-8275-e1ea509cad00",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Como saber a quantas provas terei?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "417d6fd5-e284-4c40-bd29-fa9a70561d2a",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "sobre as provas",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": null,
+        "updated": null
+      }
+    ],
+    "webhookForSlotFilling": false,
+    "webhookUsed": false
+  }

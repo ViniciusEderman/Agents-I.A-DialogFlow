@@ -1,0 +1,214 @@
+{
+    "id": "a6b77be8-f64c-4f3e-87df-2736bd355292",
+    "name": "Lab_Univs",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 1000000,
+    "responses": [
+      {
+        "action": "",
+        "affectedContexts": [
+          {
+            "name": "agendarVisita_lab",
+            "lifespan": 5
+          }
+        ],
+        "parameters": [],
+        "defaultResponsePlatforms": {},
+        "messages": [
+          {
+            "type": "message",
+            "condition": "",
+            "speech": [
+              "Os nossos laboratórios são os melhores do Estado de PE. Para que você possa visitar e tirar dúvida, digite: \"agendar visita\". Sem o agendamento você não consegue ter acesso ao laboratório."
+            ]
+          }
+        ],
+        "resetContexts": false
+      }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "A respeito ",
+            "userDefined": false
+          },
+          {
+            "text": "do",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": " ",
+            "userDefined": false
+          },
+          {
+            "text": "laboratorio",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "a44bb06f-7990-477a-a841-cd0b177ccd7d",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Sobre ",
+            "userDefined": false
+          },
+          {
+            "text": "o laboratório",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 1,
+        "id": "d6e8e955-607c-492d-8f04-b10ae2665a3f",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Quero conhcer ",
+            "userDefined": false
+          },
+          {
+            "text": "o laboratório",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": ", como faço?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "9712e95b-87a5-4bb8-b2dd-13441e529253",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Laboratório",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": "?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "5bde96e2-977f-4e00-9724-8f480850a312",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Que horas abre ",
+            "userDefined": false
+          },
+          {
+            "text": "o laboratório",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": "?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "91231789-b223-4491-beb2-6134b53a8435",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Sobre ",
+            "userDefined": false
+          },
+          {
+            "text": "o laboratório",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": ", como faço ",
+            "userDefined": false
+          },
+          {
+            "text": "para",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": " visitar?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "eeeb6049-192c-4c33-96ed-354f7fbb0f9d",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Quero agendar ",
+            "userDefined": false
+          },
+          {
+            "text": "uma",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": " visita ao ",
+            "userDefined": false
+          },
+          {
+            "text": "laboratório",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "15b87dfe-dee4-44d8-879e-e559bf0bdd7c",
+        "updated": null
+      }
+    ],
+    "webhookForSlotFilling": false,
+    "webhookUsed": false
+  }

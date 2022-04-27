@@ -1,0 +1,157 @@
+{
+  "id": "158dc7e7-3c89-49a6-a1d9-b8f473e375e9",
+  "name": "Biblioteca.Univs",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Sobre a biblioteca. Ela se encontra aberta de segunda à sexta das 09:00 às 17:30. Para saber mais sobre a biblioteca acesse seu sistema da universidade e pesquise sobre o campo biblioteca Univs."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Onde encontro ",
+          "userDefined": false
+        },
+        {
+          "text": "a biblioteca",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0c2982dc-14ea-4f11-a784-940e7b4e376b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "A biblioteca",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " está aberta?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "9f7def1e-5397-405c-89c0-6613611de471",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Onde fica ",
+          "userDefined": false
+        },
+        {
+          "text": "a biblioteca",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ff5b04a6-075f-40e2-8810-d7762ea648f2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Biblioteca",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "704c9c65-716c-4466-b243-db158f3eb546",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Sobre ",
+          "userDefined": false
+        },
+        {
+          "text": "a biblioteca",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "9ce3de07-c897-4cf7-bf3e-724880896975",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Como usar ",
+          "userDefined": false
+        },
+        {
+          "text": "a biblioteca",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ea1b1fca-b76f-46f9-a801-236691e7776e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

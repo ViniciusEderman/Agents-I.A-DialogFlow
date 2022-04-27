@@ -1,0 +1,263 @@
+{
+    "id": "fb8c97cf-d02b-4cb2-be93-52a86ca80ed1",
+    "name": "Default Welcome Intent",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [
+      {
+        "name": "WELCOME"
+      }
+    ],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+      {
+        "action": "input.welcome",
+        "affectedContexts": [],
+        "parameters": [],
+        "defaultResponsePlatforms": {},
+        "messages": [
+          {
+            "type": "message",
+            "condition": "",
+            "speech": [
+              "Olá, tudo bem? Me chamo Alberto e serei seu agente auxiliador. \nSobre o que deseja falar?"
+            ]
+          }
+        ],
+        "resetContexts": false
+      }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "me tira ",
+            "userDefined": false
+          },
+          {
+            "text": "uma",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": " dúvida?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "2def5a72-e319-4bf7-bd1e-111b1da50529",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "olá",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": ", tudo ",
+            "userDefined": false
+          },
+          {
+            "text": "bem",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": "?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "a60b840f-f9ab-423d-a7d0-90ac49c6a744",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "bom dia",
+            "userDefined": false
+          }
+        ],
+        "count": 1,
+        "id": "a1bf9fda-8a11-44ef-9286-7dfe294b6c08",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "boa ",
+            "userDefined": false
+          },
+          {
+            "text": "tarde",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "ea7839bb-8139-424f-8733-bb2b0c0727e3",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Boa ",
+            "userDefined": false
+          },
+          {
+            "text": "noite",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "378cfee8-9b84-468f-888f-925485f46015",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "há quanto tempo",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "39ba0b0c-0143-42f7-aa5b-f475d31b14e0",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "olá",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "703fccd1-4520-45b9-af7c-06f2bd4cf502",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "oi",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "b9b282f6-e010-40bd-baf7-72f621e2be58",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "opa",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "cdd31f88-fd3e-4ac1-a376-78eceae65f2b",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "fala aí",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "3fe9895e-272c-4f54-85c4-31bf5a87b243",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "fala",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "32585f36-f08f-438b-b753-30ef1d2caaef",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "saudações",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "098acbdf-c0ac-4797-8022-99b40ed6d9c5",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "oi tudo bem",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "ae141132-f273-44d5-bce8-4696cbc2fa3d",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "e aí",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "1a198fe8-f37e-4d38-b7c0-9f9c37663b8d",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "eae",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "4cedb311-d19a-4c6d-98b1-805950ff61c8",
+        "updated": null
+      }
+    ],
+    "webhookForSlotFilling": false,
+    "webhookUsed": false
+  }

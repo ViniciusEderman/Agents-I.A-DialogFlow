@@ -1,0 +1,163 @@
+{
+    "id": "e453deee-24e1-44cb-83a8-29354401a181",
+    "name": "Ler.post",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+      {
+        "action": "",
+        "affectedContexts": [],
+        "parameters": [],
+        "defaultResponsePlatforms": {},
+        "messages": [
+          {
+            "type": "message",
+            "condition": "",
+            "speech": [
+              "Ainda nos encontramos sem a listagem de post's."
+            ]
+          }
+        ],
+        "resetContexts": false
+      }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "queria saber sobre os posts",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "2fef02f2-c3e4-4526-9744-621a50fdc682",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "sobre os posts",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "a0ddeb2f-832e-4041-94b0-50dafcd4ee70",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "novos posts lançados",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "9bcfd620-b8d1-47f3-8649-4e693ba30452",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "post publicados",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "cdc2a6e8-181a-4287-89ac-6a37aedf5f5e",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "posts",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "4a019d40-45d4-4bbf-8750-ddcb71df9154",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "post",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "c8ba0c1f-9dcc-4435-9c15-057d8541a546",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "quero ver os novos posts",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "78a5df04-2166-4ef9-891a-e7920ba74fd9",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "quero saber sobre os post",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "b4970afe-be0f-4660-b225-1e637defce61",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "quero ler os posts",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "7efe375b-8de4-4b02-9847-f14ed032a86d",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "quero ler post",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "29d0a440-d639-4253-a4aa-055d7d51e847",
+        "updated": null
+      }
+    ],
+    "webhookForSlotFilling": false,
+    "webhookUsed": false
+  }

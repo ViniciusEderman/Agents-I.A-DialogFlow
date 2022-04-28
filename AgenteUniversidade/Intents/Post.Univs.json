@@ -1,0 +1,196 @@
+{
+    "id": "2f38053e-38d5-4d8e-83d1-f2ee215ad270",
+    "name": "Post.Univs",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+      {
+        "action": "",
+        "affectedContexts": [],
+        "parameters": [
+          {
+            "noInputPromptMessages": [],
+            "noMatchPromptMessages": [],
+            "promptMessages": [],
+            "defaultValue": "",
+            "name": "titulo_post",
+            "dataType": "@sys.any",
+            "isList": false,
+            "required": true,
+            "prompts": [
+              "Qual o título do seu post?"
+            ],
+            "value": "",
+            "outputDialogContexts": []
+          },
+          {
+            "noInputPromptMessages": [],
+            "noMatchPromptMessages": [],
+            "promptMessages": [],
+            "defaultValue": "",
+            "name": "text_post",
+            "dataType": "@sys.any",
+            "isList": false,
+            "required": true,
+            "prompts": [
+              "Escreva seu texto:"
+            ],
+            "value": "",
+            "outputDialogContexts": []
+          }
+        ],
+        "defaultResponsePlatforms": {},
+        "messages": [
+          {
+            "type": "message",
+            "condition": "",
+            "speech": [
+              "Seu post foi enviado"
+            ]
+          }
+        ],
+        "resetContexts": false
+      }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "enviar post ",
+            "userDefined": false
+          },
+          {
+            "text": "para a faculdade",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "3372fc75-f478-4d44-9212-6ebaa27ad8b2",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "post enviar",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "7c56e74d-47c7-4703-b353-c5a25c36d0c7",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "post",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "e324ee20-f719-4226-9c25-7ee8cf2291a9",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "encaminhar post",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "dbc6dd97-ce80-400d-aaaa-d8464601314d",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "como enviar ",
+            "userDefined": false
+          },
+          {
+            "text": "um",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": " post?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "aee24e6d-7d50-425b-be4c-483c746fde7c",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "encaminhar posto",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "1d1ebee8-84ab-4276-bf56-c47ac596fc83",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "enviar post",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "ea9be09a-e989-4d5c-aa40-a40bbb46d106",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "quero enviar ",
+            "userDefined": false
+          },
+          {
+            "text": "um",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": " post",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "bb78959c-4155-4339-a925-c3411177d0a2",
+        "updated": null
+      }
+    ],
+    "webhookForSlotFilling": false,
+    "webhookUsed": false
+  }

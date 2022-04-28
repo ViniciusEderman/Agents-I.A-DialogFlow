@@ -1,0 +1,49 @@
+{
+    "isRegexp": false,
+    "isEnum": false,
+    "allowFuzzyExtraction": false,
+    "name": "Cursos_Univs",
+    "automatedExpansion": false,
+    "entries": [
+      {
+        "value": "Medicina",
+        "synonyms": [
+          "medicina",
+          "med",
+          "MEDICINA"
+        ]
+      },
+      {
+        "value": "Engenharia",
+        "synonyms": [
+          "ENG",
+          "eng",
+          "Engenharia"
+        ]
+      },
+      {
+        "value": "Farmácia",
+        "synonyms": [
+          "farm",
+          "Farmacia"
+        ]
+      },
+      {
+        "value": "Química",
+        "synonyms": [
+          "quimica",
+          "QUIMICA",
+          "QUIMC"
+        ]
+      },
+      {
+        "value": "Física",
+        "synonyms": [
+          "FISICA",
+          "FISIC"
+        ]
+      }
+    ],
+    "id": "29fc7a8d-92e5-4d27-b28b-4f71b4a71c22",
+    "isOverridable": false
+  }

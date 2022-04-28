@@ -1,0 +1,41 @@
+{
+    "isRegexp": false,
+    "isEnum": false,
+    "allowFuzzyExtraction": false,
+    "name": "Laboratorios_Univs",
+    "automatedExpansion": false,
+    "entries": [
+      {
+        "value": "Química",
+        "synonyms": [
+          "Química"
+        ]
+      },
+      {
+        "value": "Farmácia",
+        "synonyms": [
+          "Farmácia"
+        ]
+      },
+      {
+        "value": "Anatomia",
+        "synonyms": [
+          "Anatomia"
+        ]
+      },
+      {
+        "value": "Bioquímica",
+        "synonyms": [
+          "Bioquímica"
+        ]
+      },
+      {
+        "value": "Tecnologia",
+        "synonyms": [
+          "Tecnologia"
+        ]
+      }
+    ],
+    "id": "92bd9dc1-1681-4495-83f0-d3225f893840",
+    "isOverridable": false
+  }

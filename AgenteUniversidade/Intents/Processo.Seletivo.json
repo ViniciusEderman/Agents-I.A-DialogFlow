@@ -1,0 +1,143 @@
+{
+    "id": "025a7b84-19d0-47e1-a3d6-ed5b73a0e9ec",
+    "name": "Processo.Seletivo",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+      {
+        "action": "",
+        "affectedContexts": [],
+        "parameters": [],
+        "defaultResponsePlatforms": {},
+        "messages": [
+          {
+            "type": "message",
+            "condition": "",
+            "speech": [
+              "Para saber mais sobre o processo seletivo, é necessário ligar no número: (xx) xxxxx-xxxx e falar perguntar ao atendente sobre resultado. Uma leve explicação de como funciona: O aluno deverá realizar o enem e encaminhar a nota completa pelo próprio INEP assim participará de uma nota de corte."
+            ]
+          }
+        ],
+        "resetContexts": false
+      }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "seleção",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "03c9cdc1-6917-4de8-a8ff-e9276cf4a54f",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "selecao",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "752d40a1-8c4d-4eb7-8287-467662a6af2b",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "seleção[",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "209f5f6d-0d05-401a-b3c7-5aacd20ecd5b",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "processo seletivo",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "696c3f4c-c89c-4e2b-93af-76134aaa82e1",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "como funciona o processo seletivo?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "49f7a6ff-4833-4fc9-8f5d-3575491af086",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "como é o processo seletivo?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "6f7d67eb-aad6-4316-aaed-2dd84ccd2cea",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "quero saber sobre a seleção da ",
+            "userDefined": false
+          },
+          {
+            "text": "universidade",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "e138c606-0d7f-4b1a-bbe3-c149ddd35117",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Quero saber sobre o processo seletivo",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "800cad35-81d6-40e7-a100-a72e0fc1bed8",
+        "updated": null
+      }
+    ],
+    "webhookForSlotFilling": false,
+    "webhookUsed": false
+  }

@@ -12,10 +12,10 @@ app.use(
 app.use(express.static("public"));
 
 app.get("/", function (request, response) {
-  response.sendFile(__dirname + "/src/pages/index.hbs");
+  response.sendFile(__dirname + "");
 });
 
-app.post("/vinicius-webhooker", function (request, response) {
+app.post("/", function (request, response) {
   response.json({ fulfullmentText: "primeiro webwooker" });
 });
 

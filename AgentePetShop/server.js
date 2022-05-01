@@ -15,7 +15,7 @@ app.get('/', function(request, response){
 
 app.post("/nomedoagente", function(request, response){
 
-    let intent 
+    let intentName = request.body.queryResult.intent.displayName;
 });
 
 var port =  process.env.PORT || 3000;

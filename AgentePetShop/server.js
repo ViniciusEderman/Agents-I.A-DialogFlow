@@ -1,3 +1,8 @@
+//this code is my sketch for study in understanding about webhook // 
+// este código é meu esboço para entendimento de webhook // 
+// não tente rodar  // 
+// don't run this code // 
+
 const express = require('express');
 const app = express();
 
@@ -14,12 +19,12 @@ app.get('/', function (request, response) {
 });
 
 const {google} = require('googleapis');
-const calendarId = ""
-const serviceAccount = {}
+const calendarId = "adicionar o id do google calender"
+const serviceAccount = 'adicionar arquivo json do google calendário'
 const timeZoneOffset = '-03:00';
 
 const serviceAccountAuth = new google.auth.JWT({
-    email: serviceAccount.client.email,
+    email: serviceAccount.client_email,
     key: serviceAccount.private_key,
     scopes: 'https://www.googleapis.com/auth/calendar'
 })
@@ -53,10 +58,47 @@ app.post("/nomedoagente", function (request, response) {
             connection.end();
             response.json({ "fulfillmentText": "Seus dados foram salvos com sucesso, quer agendar neste momento?" })
         });
+    }else if (intentName === "nome do intent - para followup yes") {
+
+        let cliente = request.body.queryResult.outputContexts[1].parameters['nome-cliente'];
+        let tipo =  request.body.queryResult.outputContexts[1].parameters['tipo'];
+        let servico = request.body.queryResult.outputContexts[1].parameters['servico'];
+        let data = request.body.queryResult.outputContexts[1].parameters['data'];
+        let hora = request.body.queryResult.outputContexts[1].parameters['hora'];
+
+        const dateTimeStart = new Date(Date.parse(data.split('T')[0] + 'T' + hora.split('T')[1].split('-')[0] + timeZoneOffset));
+        const dateTimeEnd = new Date(new Date(dateTimeStart).setHours(dateTimeStart.getHours() + 1));
+        const agendamentoString = formatData(new Date(data.split('T')[0]))+ " as "+hora.split('T')[1].split('-')[0];
+
+        return criarEventoCalendario(dateTimeStart, dateTimeEnd, servico,tipo,cliente).then(() => {
+            let mensagem = `Excelente, seu serviço esta agendado para ${agendamentoString} `;
+            console.log(mensagem);
+            response.json({"fulfillmentText":mensagem});
+          }).catch(() => {
+            let mensagem = `Desculpe, não temos mais vaga para ${agendamentoString}.`;
+            console.log(mensagem);
+            response.json({"fulfillmentText":mensagem});
+          });
     }
 });
 
 var port = process.env.PORT || 3000;
+
+
+function formatData(date) {
+    var nomeMes = [
+      "Janeiro", "Fevereiro", "Março",
+      "Abril", "Maio", "Junho", "Julho",
+      "Agosto", "Setembro", "Outubro",
+      "Novembro", "Dezembro"
+    ];
+  
+    var dia = date.getDate();
+    var mesIndex = date.getMonth();
+    var ano = date.getFullYear();
+  
+    return dia + ' ' + nomeMes[mesIndex] + ' ' + ano;
+}
 
 const listener = app.listen(port, function () {
     console.log("Sua aplicação está na porta: " + listener.address().port);

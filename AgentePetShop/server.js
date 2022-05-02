@@ -13,6 +13,19 @@ app.get('/', function (request, response) {
     response.send("Teste");
 });
 
+const {google} = require('googleapis');
+const calendarId = ""
+const serviceAccount = {}
+const timeZoneOffset = '-03:00';
+
+const serviceAccountAuth = new google.auth.JWT({
+    email: serviceAccount.client.email,
+    key: serviceAccount.private_key,
+    scopes: 'https://www.googleapis.com/auth/calendar'
+})
+
+const calendar = google.calendar('v3');
+
 const mysql = require("mysql");
 const MYSQL_HOST = process.env.MYSQL_HOST
 const MYSQL_USER = process.env.MYSQL_USER

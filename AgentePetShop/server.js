@@ -13,7 +13,11 @@ app.get('/', function(request, response){
     response.send("Teste");
 });
 
-const mysql
+const mysql = require("mysql");
+const MYSQL_HOST = process.env.MYSQL_HOST
+const MYSQL_USER = process.env.MYSQL_USER
+const PASS = process.env.PASS
+const MYSQL_DB = process.env.MYSQL_DB
 
 app.post("/nomedoagente", function(request, response){
 

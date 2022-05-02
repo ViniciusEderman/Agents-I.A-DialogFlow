@@ -13,9 +13,18 @@ app.get('/', function(request, response){
     response.send("Teste");
 });
 
+const mysql
+
 app.post("/nomedoagente", function(request, response){
 
     let intentName = request.body.queryResult.intent.displayName;
+
+    if (intentName === "agendamento") {
+        let nome = request.body.queryResult.parameters['nome-cliente'];
+        let fone = request.body.queryResult.parameters['fone-cliente'];
+
+        let sql_query = "insert into clientes values ('"+nome+"', '"+fone+"')";
+    }
 });
 
 var port =  process.env.PORT || 3000;

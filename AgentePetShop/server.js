@@ -82,6 +82,35 @@ app.post("/nomedoagente", function (request, response) {
     }
 });
 
+
+function criarEventoCalendario(dateTimeStart, dateTimeEnd, servico,tipo,cliente) {
+    return new Promise((resolve, reject) => {
+      calendar.events.list({
+        auth: serviceAccountAuth, // List events for time period
+        calendarId: calendarId,
+        timeMin: dateTimeStart.toISOString(),
+        timeMax: dateTimeEnd.toISOString()
+      }, (err, calendarResponse) => {
+        // Check if there is a event already on the Calendar
+        if (err || calendarResponse.data.items.length > 0) {
+          reject(err || new Error('Requisição conflita com outros agendamentos'));
+        } else {
+          // Create event for the requested time period
+          calendar.events.insert({ auth: serviceAccountAuth,
+            calendarId: calendarId,
+            resource: {summary: servico +'-'+tipo+'-', description: '['+cliente+']['+servico+']['+tipo+']',
+              start: {dateTime: dateTimeStart},
+              end: {dateTime: dateTimeEnd}}
+          }, (err, event) => {
+            err ? reject(err) : resolve(event);
+          }
+          );
+        }
+      });
+    });
+  }
+
+  
 var port = process.env.PORT || 3000;
 
 

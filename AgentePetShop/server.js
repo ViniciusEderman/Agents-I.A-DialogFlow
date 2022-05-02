@@ -2,14 +2,14 @@ const express = require('express');
 const app = express();
 
 let bodyParser = require('body-parser')
-app.use( bodyParser.json() );
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: true
 }));
 
 app.use(express.static('public'));
 
-app.get('/', function(request, response){
+app.get('/', function (request, response) {
     response.send("Teste");
 });
 
@@ -19,7 +19,7 @@ const MYSQL_USER = process.env.MYSQL_USER
 const MYSQL_PASS = process.env.MYSQL_PASS
 const MYSQL_DB = process.env.MYSQL_DB
 
-app.post("/nomedoagente", function(request, response){
+app.post("/nomedoagente", function (request, response) {
 
     let intentName = request.body.queryResult.intent.displayName;
 
@@ -27,7 +27,7 @@ app.post("/nomedoagente", function(request, response){
         let nome = request.body.queryResult.parameters['nome-cliente'];
         let fone = request.body.queryResult.parameters['fone-cliente'];
 
-        let sql_query = "insert into clientes values ('"+nome+"', '"+fone+"')";
+        let sql_query = "insert into clientes values ('" + nome + "', '" + fone + "')";
         let connection = mysql.createConnection({
             host: MYSQL_HOST,
             user: MYSQL_USER,
@@ -35,16 +35,16 @@ app.post("/nomedoagente", function(request, response){
             database: MYSQL_DB
         });
         connection.connect()
-        connection.query(sql_query, function(error, results, fields) {
+        connection.query(sql_query, function (error, results, fields) {
             if (error) throw error;
             connection.end();
-            response.json({"fulfillmentText":"Seus dados foram salvos com sucesso, quer agendar neste momento?"})
+            response.json({ "fulfillmentText": "Seus dados foram salvos com sucesso, quer agendar neste momento?" })
         });
     }
 });
 
-var port =  process.env.PORT || 3000;
+var port = process.env.PORT || 3000;
 
-const listener = app.listen(port, function() {
+const listener = app.listen(port, function () {
     console.log("Sua aplicação está na porta: " + listener.address().port);
 });

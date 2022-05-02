@@ -33,7 +33,13 @@ app.post("/nomedoagente", function(request, response){
             user: MYSQL_USER,
             password: MYSQL_PASS,
             database: MYSQL_DB
-        })
+        });
+        connection.connect()
+        connection.query(sql_query, function(error, results, fields) {
+            if (error) throw error;
+            connection.end();
+            response.json({"fulfillmentText":"Seus dados foram salvos com sucesso, quer agendar neste momento?"})
+        });
     }
 });
 

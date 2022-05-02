@@ -16,7 +16,7 @@ app.get('/', function(request, response){
 const mysql = require("mysql");
 const MYSQL_HOST = process.env.MYSQL_HOST
 const MYSQL_USER = process.env.MYSQL_USER
-const PASS = process.env.PASS
+const MYSQL_PASS = process.env.MYSQL_PASS
 const MYSQL_DB = process.env.MYSQL_DB
 
 app.post("/nomedoagente", function(request, response){
@@ -28,6 +28,12 @@ app.post("/nomedoagente", function(request, response){
         let fone = request.body.queryResult.parameters['fone-cliente'];
 
         let sql_query = "insert into clientes values ('"+nome+"', '"+fone+"')";
+        let connection = mysql.createConnection({
+            host: MYSQL_HOST,
+            user: MYSQL_USER,
+            password: MYSQL_PASS,
+            database: MYSQL_DB
+        })
     }
 });
 

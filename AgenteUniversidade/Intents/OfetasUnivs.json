@@ -1,0 +1,134 @@
+{
+    "id": "6c6f28f5-542a-4356-9431-6bd5b806eafd",
+    "name": "ofertas.univs",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+      {
+        "action": "",
+        "affectedContexts": [],
+        "parameters": [],
+        "defaultResponsePlatforms": {},
+        "messages": [
+          {
+            "type": "message",
+            "condition": "",
+            "speech": []
+          },
+          {
+            "type": "custom_payload",
+            "condition": "",
+            "payload": {
+              "richContent": [
+                [
+                  {
+                    "title": "Confira nossas ofertas para o dia de hoje",
+                    "text": [
+                      "Nota acima de 600 no enem desconto de 25% na mensalidade durante todo o curso.",
+                      "Nota acima de 650 no enem desconto de 40% na mensalidade durante todo o curso.",
+                      "Nota acima de 700 no enem desconto de 60% na mensalidade durante todo o curso."
+                    ],
+                    "type": "description"
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        "resetContexts": false
+      }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "teria ofertas?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "a0edadd0-1fa8-450e-8a15-966acd96acbf",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "ofertas ",
+            "userDefined": false
+          },
+          {
+            "text": "hoje",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "464150bb-cf32-4e26-ad01-e7d2d2e38833",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "tudo ",
+            "userDefined": false
+          },
+          {
+            "text": "bem",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": "? quero saber sobre ofertas",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "c16f5c33-968f-47fd-80b9-d5bd2066bfcd",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "ofertas",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "e3eac15d-9b2b-499d-bd67-9f2653d76053",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "quero ver as ofetas",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "723bd189-041f-46e1-85fb-2722d97fc769",
+        "updated": null
+      }
+    ],
+    "webhookForSlotFilling": false,
+    "webhookUsed": false
+  }

@@ -1,0 +1,42 @@
+{
+    "richContent": [
+        [
+            {
+                "type": "button",
+                "icon": {
+                    "type": "", 
+                    "color": "#FF9800"
+                },
+                "text": "Medicina",
+                "link": "https://querobolsa.com.br/cursos-e-faculdades/medicina"
+            },
+            {
+                "type": "button",
+                "icon": {
+                    "type": "", 
+                    "color": "#FF9800"
+                },
+                "text": "Engenharia",
+                "link": "https://www.portaldaindustria.com.br/industria-de-a-z/engenharia/"
+            },
+            {
+                "type": "button",
+                "icon": {
+                    "type": "", 
+                    "color": "#FF9800"
+                },
+                "text": "Química",
+                "link": "https://querobolsa.com.br/cursos-e-faculdades/quimica"
+            },
+            {
+                "type": "button",
+                "icon": {
+                    "type": "", 
+                    "color": "#FF9800"
+                },
+                "text": "Biomedicina",
+                "link": "https://www.guiadacarreira.com.br/cursos/curso-de-biomedicina/#:~:text=O%20curso%20de%20Biomedicina%20%C3%A9%20uma%20gradua%C3%A7%C3%A3o%20de%20n%C3%ADvel%20superior,v%C3%A1rias%20atividades%20pr%C3%A1ticas%20em%20laborat%C3%B3rio."
+            }
+        ]
+    ]
+}

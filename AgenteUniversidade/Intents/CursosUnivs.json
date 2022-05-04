@@ -1,0 +1,245 @@
+{
+    "id": "b72e0aec-1d46-4235-8b5c-8f708bb42db9",
+    "name": "Cursos.Univs",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+      {
+        "action": "",
+        "affectedContexts": [],
+        "parameters": [],
+        "defaultResponsePlatforms": {},
+        "messages": [
+          {
+            "type": "message",
+            "condition": "",
+            "speech": []
+          },
+          {
+            "type": "custom_payload",
+            "condition": "",
+            "payload": {
+              "richContent": [
+                [
+                  {
+                    "type": "button",
+                    "link": "https://querobolsa.com.br/cursos-e-faculdades/medicina",
+                    "icon": {
+                      "type": "local_hospital",
+                      "color": "#FF9800"
+                    },
+                    "text": "Medicina"
+                  },
+                  {
+                    "text": "Engenharia",
+                    "type": "button",
+                    "icon": {
+                      "color": "#FF9800",
+                      "type": "engineering"
+                    },
+                    "link": "https://www.portaldaindustria.com.br/industria-de-a-z/engenharia/"
+                  },
+                  {
+                    "text": "Química",
+                    "type": "button",
+                    "link": "https://querobolsa.com.br/cursos-e-faculdades/quimica",
+                    "icon": {
+                      "type": "science",
+                      "color": "#FF9800"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "link": "https://www.guiadacarreira.com.br/cursos/curso-de-biomedicina/#:~:text=O%20curso%20de%20Biomedicina%20%C3%A9%20uma%20gradua%C3%A7%C3%A3o%20de%20n%C3%ADvel%20superior,v%C3%A1rias%20atividades%20pr%C3%A1ticas%20em%20laborat%C3%B3rio.",
+                    "icon": {
+                      "type": "biotech",
+                      "color": "#FF9800"
+                    },
+                    "text": "Biomedicina"
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        "resetContexts": false
+      }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "tudo bm? quero saber sobre os ",
+            "userDefined": false
+          },
+          {
+            "text": "cursos",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "d99a9338-13e9-40fe-99ee-ca6a319fb0c1",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "me ",
+            "userDefined": false
+          },
+          {
+            "text": "fale",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": " sobre os ",
+            "userDefined": false
+          },
+          {
+            "text": "cursos",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "0e520117-29b6-47b4-a6cd-0cdf2a154173",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "sobre os ",
+            "userDefined": false
+          },
+          {
+            "text": "cursos",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "c65099a9-c35b-475e-a2b6-e875ad33a3d6",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "cusso",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "50e8091f-6286-40e4-ae52-a4900e9e0a7e",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "cursos",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": " da ",
+            "userDefined": false
+          },
+          {
+            "text": "faculdade",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "351c39e2-c13f-4200-a45c-2f0ccbc4a6fb",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "cursos",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "9c1e21f0-07b7-40e6-8741-1faaf5f4c919",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Quais são os ",
+            "userDefined": false
+          },
+          {
+            "text": "cursos",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": "?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "da63c107-aa68-4732-86d5-f8e90d4b7b21",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Quais os ",
+            "userDefined": false
+          },
+          {
+            "text": "cursos",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": "?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "609a5290-e121-4688-ba14-51fa6a958c2d",
+        "updated": null
+      }
+    ],
+    "webhookForSlotFilling": false,
+    "webhookUsed": false
+  }

@@ -4,7 +4,7 @@
             {
                 "type": "button",
                 "icon": {
-                    "type": "", 
+                    "type": "local_hospital", 
                     "color": "#FF9800"
                 },
                 "text": "Medicina",
@@ -13,7 +13,7 @@
             {
                 "type": "button",
                 "icon": {
-                    "type": "", 
+                    "type": "engineering", 
                     "color": "#FF9800"
                 },
                 "text": "Engenharia",
@@ -22,7 +22,7 @@
             {
                 "type": "button",
                 "icon": {
-                    "type": "", 
+                    "type": "science", 
                     "color": "#FF9800"
                 },
                 "text": "Química",
@@ -31,7 +31,7 @@
             {
                 "type": "button",
                 "icon": {
-                    "type": "", 
+                    "type": "biotech", 
                     "color": "#FF9800"
                 },
                 "text": "Biomedicina",
